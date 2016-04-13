@@ -15,6 +15,13 @@ light green : #a6e22e
 
 /* Local Fonts */
 @font-face {
+  font-family: 'Anonymous';
+  font-style: normal;
+  font-weight: 300;
+  src: url('fonts/anonymous/anonymous.woff') format('woff');
+}
+
+@font-face {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 300;
@@ -172,6 +179,11 @@ body {
   font-size: 100%;
   color: #fafafa;
   background-color: #FF0000;
+}
+
+pre {
+  font-family: 'Anonymous', monospace;
+  color: white;
 }
 
 /* Custom Slide Styles */
@@ -607,7 +619,7 @@ pre .xml .cdata {
     margin: 0 auto !important;
     overflow: visible;
     font-size: 52%;
-    /*background: none !important; */
+    background: none !important;
     border: 0;
   }
 
