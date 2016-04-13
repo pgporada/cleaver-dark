@@ -25,7 +25,7 @@ light green : #a6e22e
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 300;
-  src: url('fonts/opensans/300.woff2') format('woff2'),
+  src: url('fonts/opensans/OpenSans.woff') format('woff'),
        url('fonts/opensans/300.woff') format('woff');
 }
 
@@ -411,7 +411,7 @@ table th {
 .progress-bar {
   height: 8px;
   width: 0;
-  background-color: #a6e22e;
+  background-color: #00A514;
   -webkit-transition: width .15s ease-out;
      -moz-transition: width .15s ease-out;
        -o-transition: width .15s ease-out;
