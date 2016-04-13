@@ -243,12 +243,17 @@ pre {
 
 table td,
 table th {
-  padding-right: 3em;
+  padding-right: 1em;
   text-align: left;
 }
 
-tr:nth-child(2n) {
-  background-color: #424242;
+td {
+  padding: .4em;
+}
+
+thead, tr:nth-child(2n) {
+  /*background-color: #424242;*/
+  background-color: #292929;
 }
 
 .progress {
