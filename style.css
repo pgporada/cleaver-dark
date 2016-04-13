@@ -15,7 +15,7 @@ light green : #a6e22e
 
 /* Theme Styles */
 body {
-  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-family: 'DejaVu Sans', 'Liberation Sans', 'FreeSans', 'Helvetica', 'Arial', sans-serif;
   font-size: 100%;
   color: #fafafa;
   background-color: #191919;
@@ -132,7 +132,7 @@ img.badge {
 h1,
 h2,
 h3 {
-  font-family: 'Monaco', 'Lucida Console', serif;
+  font-family: 'Monaco', 'DejaVu Sans Mono', 'Liberation Mono', 'Lucida Console', Monospaced;
 }
 
 h1 {
@@ -163,7 +163,7 @@ h3 {
 }
 
 ul {
-  padding: 20px 0 0 60px;
+  padding: 0 0 0 60px;
   font-weight: 200;
   line-height: 1.375;
 }
@@ -271,9 +271,7 @@ table th {
 /* Code Highlighting */
 code {
   padding: .1em .35em;
-  font-family: 'Fira Mono';
-  /* color: #fafafa; */
-  font-family: 'Monaco', monospace;
+  font-family: 'Monaco', 'Liberation Mono', 'Andale Mono', monospace;
   color: white;
   background-color: #272822;
   border-radius: 3px;
@@ -282,12 +280,11 @@ code {
 pre code {
   display: block;
   padding: .5em;
-  /*font-family: 'Fira Mono'; */
   font-weight: 400;
   overflow-y: hidden;
   /*background: #272822;*/
   background: #292929;
-  font-family: 'Monaco', monospace;
+  font-family: 'Monaco', 'Liberation Mono', 'Andale Mono', monospace;
   color: #ababab;
   border-left: 8px solid #00A514;
 }
