@@ -224,12 +224,16 @@ blockquote p {
 
 a {
   text-decoration: none;
-  color: #CB5EFF;
+  color: #00A514;
 }
 
 a:hover {
-  color: #66d9ef;
-  border-bottom: 1px solid #66d9ef;
+  color: #00ff1c;
+  border-bottom: 1px solid #00ff1c;
+}
+
+font[Attributes Style] {
+  font-weight: bold;
 }
 
 hr {
@@ -247,7 +251,7 @@ table th {
   text-align: left;
 }
 
-thead, tr:nth-child(2n) {
+tr:nth-child(2n) {
   background-color: #424242;
 }
 
