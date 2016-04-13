@@ -105,7 +105,7 @@ light green : #a6e22e
   font-family: 'Merriweather';
   font-style: normal;
   font-weight: 400;
-  src: url('fonts/merriweather/400.ttf') format('ttf'),
+  src: url('fonts/merriweather/400.woff2') format('woff2'),
        url('fonts/merriweather/400.woff') format('woff');
 }
 
@@ -113,7 +113,7 @@ light green : #a6e22e
   font-family: 'Merriweather';
   font-style: normal;
   font-weight: 700;
-  src: url('fonts/merriweather/700.ttf') format('ttf'),
+  src: url('fonts/merriweather/700.woff2') format('woff2'),
        url('fonts/merriweather/700.woff') format('woff');
 }
 
@@ -121,7 +121,7 @@ light green : #a6e22e
   font-family: 'Merriweather';
   font-style: normal;
   font-weight: 900;
-  src: url('fonts/merriweather/900.ttf') format('ttf'),
+  src: url('fonts/merriweather/900.woff2') format('woff2'),
        url('fonts/merriweather/900.woff') format('woff');
 }
 
@@ -129,7 +129,7 @@ light green : #a6e22e
   font-family: 'Merriweather';
   font-style: italic;
   font-weight: 400;
-  src: url('fonts/merriweather/400i.ttf') format('ttf'),
+  src: url('fonts/merriweather/400i.woff2') format('woff2'),
        url('fonts/merriweather/400i.woff') format('woff');
 }
 
@@ -137,7 +137,7 @@ light green : #a6e22e
   font-family: 'Merriweather';
   font-style: italic;
   font-weight: 700;
-  src: url('fonts/merriweather/700i.ttf') format('ttf'),
+  src: url('fonts/merriweather/700i.woff2') format('woff2'),
        url('fonts/merriweather/700i.woff') format('woff');
 }
 
@@ -145,7 +145,7 @@ light green : #a6e22e
   font-family: 'Merriweather';
   font-style: italic;
   font-weight: 900;
-  src: url('fonts/merriweather/900i.ttf') format('ttf'),
+  src: url('fonts/merriweather/900i.woff2') format('woff2'),
        url('fonts/merriweather/900i.woff') format('woff');
 }
 
@@ -179,6 +179,16 @@ body {
   font-size: 100%;
   color: #fafafa;
   background-color: #191919;
+}
+
+body::before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  height: 200px;
+  background-color: black;
 }
 
 /* Custom Slide Styles */
