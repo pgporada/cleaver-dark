@@ -409,7 +409,7 @@ table th {
 }
 
 .progress-bar {
-  height: 3px;
+  height: 8px;
   width: 0;
   background-color: #a6e22e;
   -webkit-transition: width .15s ease-out;
