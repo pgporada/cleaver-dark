@@ -191,6 +191,10 @@ blockquote p {
   width: 48%;
 }
 
+.author {
+  margin-top: 200px;
+}
+
 .author h1 {
   margin-bottom: 30px;
   font-size: 170%;
