@@ -247,7 +247,7 @@ table th {
   text-align: left;
 }
 
-td {
+th, td {
   padding: .4em;
 }
 
