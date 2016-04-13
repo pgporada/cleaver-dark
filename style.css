@@ -224,16 +224,12 @@ blockquote p {
 
 a {
   text-decoration: none;
-  color: #00A514;
+  color: #00ff1c;
 }
 
 a:hover {
   color: #00ff1c;
   border-bottom: 1px solid #00ff1c;
-}
-
-font[Attributes Style] {
-  font-weight: bold;
 }
 
 hr {
