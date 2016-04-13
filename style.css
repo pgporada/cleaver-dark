@@ -25,8 +25,7 @@ light green : #a6e22e
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 300;
-  src: url('fonts/opensans/_300.woff') format('woff'),
-       url('fonts/opensans/_300.woff') format('woff');
+  src: url('fonts/opensans/_300.woff') format('woff');
 }
 
 @font-face {
