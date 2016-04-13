@@ -607,7 +607,7 @@ pre .xml .cdata {
     margin: 0 auto !important;
     overflow: visible;
     font-size: 52%;
-    background: none !important;
+    /*background: none !important; */
     border: 0;
   }
 
