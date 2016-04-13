@@ -181,11 +181,6 @@ body {
   background-color: #FF0000;
 }
 
-pre {
-  font-family: 'Anonymous', monospace;
-  color: white;
-}
-
 /* Custom Slide Styles */
 #slide-1 {
   background: #222 url(wireball.png) center center no-repeat;
@@ -429,10 +424,12 @@ code {
 pre code {
   display: block;
   padding: .5em;
-  font-family: 'Fira Mono';
+  /*font-family: 'Fira Mono'; */
   font-weight: 400;
   overflow-y: hidden;
   background: #272822;
+  font-family: 'Anonymous', monospace;
+  color: white;
 }
 
 pre .tag,
